@@ -1,5 +1,52 @@
+body{
+    background-image: linear-gradient(white 50%, steelblue 0%);
+}
 /* ------------------------------header------------------------------------ */
 
 /* ---------------------------------section-------------------------------- */
-
+/* boutons */
+.btnhaut, .btnbas {
+    margin-bottom: 2%;
+}
+.btnhaut{
+    color: steelblue;
+    border-color: steelblue;
+}
+.btnhaut:hover{
+    background-color: steelblue;
+}
+.btnbas{
+    background-color: steelblue;
+}
+/* cadres */
+.sombre{
+    color: white;
+}
+.marbre{
+    background-color: slateblue;
+    color: white;
+}
+.blanc{
+    background-color: white;
+}
+.objligne{
+    padding: 0;
+}
+@media screen and (max-width: 768px) {
+    .bloctxt, .objligne{
+        margin-bottom: 2%;
+    }
+}
+/* textes */
+.bloctxt{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+/* images */
+img{
+    width: 100%;
+    height: auto;
+}
 /* ----------------------------------------footer-------------------------- */
